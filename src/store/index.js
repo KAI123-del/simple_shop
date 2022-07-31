@@ -34,7 +34,7 @@ export const useGlobalState = create((set,get) => ({
                 quantity:existingItem.quantity+1
             }
             
-            // need to ask this step
+            
             const updatedCartItem=existingCart.map((item)=>{
                 if(item._id===product._id){
                     return {
